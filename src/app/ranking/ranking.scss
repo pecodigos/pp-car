@@ -1,0 +1,39 @@
+* {
+    color: white;
+    margin: 1rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+mat-card {
+    height: 50%;
+    width: 50%;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    background-color: #5e5e5e;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+mat-card-content {
+    margin: 0 1.5rem;
+
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.ranking-header {
+    display: flex;
+    margin: 0;
+    gap: 50%;
+}
